@@ -502,7 +502,7 @@ h6,
 
 @media (max-width: 1200px) {
     .display-4 {
-        font-size: calc(1.475rem + 2.7vw)
+        font-size: calc(1.175rem + 2.7vw)
     }
 }
 
@@ -10827,40 +10827,46 @@ h6,
 .page-header,
 .offer,
 .footer {
-    background: linear-gradient(rgba(51, 33, 29, 0.9), rgba(51, 33, 29, 0.9)), url(../img/bg.jpg);
+    background: linear-gradient(rgba(51, 33, 29, 0.9), rgba(51, 33, 29, 0.9)), url(../img/clasicas.jpg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover
 }
 
-.mb-sm-0{
+.mb-sm-0 {
     width: 400px;
-  
 
-    
-   
+
+
+
 }
 
-.portadaimg{
+.portadaimg {
     border-radius: 5px;
     box-shadow: 3px 3px 5px 5px #ccc5c5;
 }
 
-.sectionpest{
+
+.rgbacont {
+    box-shadow: 3px 3px 5px 5px #ccc5c5;
+
+}
+
+.sectionpest {
     width: 400px;
 }
 
-.imgcar{
+.imgcar {
     max-height: 210px;
     object-fit: cover;
 }
 
-.imgper{
+.imgper {
     max-height: 435px;
     object-fit: cover;
 }
 
-.imgmenu{
+.imgmenu {
     width: 110px !important;
     height: 110px !important;
     border-radius: 50% !important;
@@ -10870,17 +10876,32 @@ h6,
 .video-container {
     position: relative;
     width: 100%;
-  
+
     overflow: hidden;
 }
 
 .video {
     width: 100%;
-    height: 60%; /* Establece el alto del video al 100% del alto del contenedor */
-    object-fit: cover; /* Ajusta el video para que cubra todo el contenedor */
+    height: 60%;
+    /* Establece el alto del video al 100% del alto del contenedor */
+    object-fit: cover;
+    /* Ajusta el video para que cubra todo el contenedor */
 }
 
 .text-white {
     font-size: 28px;
     color: #fff !important;
+}
+
+.ubicacionbtn {
+    width: 100%;
+}
+
+.ubicacionbtn {
+    border-radius: 3px;
+    background-color: #ff4a7a;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    box-shadow: 3px 3px 5px 5px #ccc5c5;
 }
