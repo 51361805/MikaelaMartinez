@@ -83,6 +83,6 @@ images.forEach(image => {
 });
 
 // Cierra el modal al hacer clic en la "X"
-closeButton.addEventListener('click', () => {
+modal.addEventListener('click', () => {
     modal.style.display = 'none';
 });
