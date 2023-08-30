@@ -68,3 +68,21 @@
     
 })(jQuery);
 
+// Obtén los elementos de las imágenes y el modal
+const images = document.querySelectorAll('.profile-image');
+const modal = document.getElementById('modal');
+const modalImage = document.getElementById('modalImage');
+const closeButton = document.querySelector('.close');
+
+// Agrega un evento clic a cada imagen
+images.forEach(image => {
+    image.addEventListener('click', () => {
+        modal.style.display = 'flex';
+        modalImage.src = image.src;
+    });
+});
+
+// Cierra el modal al hacer clic en la "X"
+closeButton.addEventListener('click', () => {
+    modal.style.display = 'none';
+});

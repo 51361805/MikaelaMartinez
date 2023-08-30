@@ -7239,7 +7239,7 @@ button.bg-dark:focus {
 }
 
 .justify-content-center {
-    justify-content: center !important
+    justify-content: end !important
 }
 
 .justify-content-between {
@@ -10857,7 +10857,7 @@ h6,
 }
 
 .imgcar {
-    max-height: 210px;
+    max-height: 204px;
     object-fit: cover;
 }
 
@@ -10904,4 +10904,75 @@ h6,
     text-align: center;
     color: white;
     box-shadow: 3px 3px 5px 5px #ccc5c5;
+}
+
+.imgportadahe{
+    height: 388px;
+}
+
+.contenconta{display: contents;}
+
+.historias {
+    text-align: center;
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.profile-image {
+    object-fit: cover;
+    margin: 5px;
+    width: 75px;
+    height: 75px;
+    padding: 2px;
+  
+    background: linear-gradient(45deg, #FFA500, #FFD700, #FF6347);
+    border-radius: 50%; /* Hace que la imagen sea redonda */
+}
+
+.profile-name {
+    margin-top: 10px;
+}
+
+/* Estilos para el modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.modal-content {
+    max-width: 98%;
+    max-height:100%;
+    object-fit: cover;
+    margin: auto;
+    display: block;
+}
+
+.close {
+    color: #fff;
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.section-titlehistorias{
+    color: #DA9F5B;
+    text-transform: uppercase ;
+    font-size: calc(1.325rem + .9vw);
+    text-align: center;
+}
+.pdescrip {
+    color: #555;
+
+    font-size: 12px;
 }
